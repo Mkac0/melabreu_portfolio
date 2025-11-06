@@ -8,7 +8,7 @@ const projectData = [
     techStack: ["JavaScript", "React", "Express", "MongoDB", "Tailwind CSS", "Google Gemini"],
     liveLink: "https://cookupga.netlify.app/",
     githubLink: "https://github.com/Mkac0/cook-up-front-end",
-    imagePath: "https://i.imgur.com/R1wX28G.png",
+    imageUrl: "https://i.imgur.com/R1wX28G.png",
   },
   {
     title: "Echoes (Car Listing App)",
@@ -16,7 +16,7 @@ const projectData = [
     techStack: ["Python", "Django", "CSS", "PostgreSQL"],
     liveLink: "https://echoes-644fddc8796a.herokuapp.com/",
     githubLink: "https://github.com/Mkac0/Echoes",
-    imagePath: "https://i.imgur.com/oMFMeTp.png",
+    imageUrl: "https://i.imgur.com/oMFMeTp.png",
   },
   {
     title: "Tellin' (Photo/Story App)",
@@ -24,7 +24,7 @@ const projectData = [
     techStack: ["JavaScript", "EJS", "CSS", "Express"],
     liveLink: "https://tellin-7168d99553e2.herokuapp.com/",
     githubLink: "https://github.com/Mkac0/tellin",
-    imagePath: "https://i.imgur.com/j4j5zz9.png",
+    imageUrl: "https://i.imgur.com/j4j5zz9.png",
   },
   {
     title: "Concentration Game",
@@ -32,7 +32,7 @@ const projectData = [
     techStack: ["JavaScript", "CSS"],
     liveLink: "https://mkac0.github.io/concentration-game/", 
     githubLink: "https://github.com/Mkac0/concentration-game",
-    imagePath: "https://i.imgur.com/kwLTN1W.png",
+    imageUrl: "https://i.imgur.com/kwLTN1W.png",
   },
 ];
 

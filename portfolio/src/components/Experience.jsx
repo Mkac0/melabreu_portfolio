@@ -7,10 +7,7 @@ const experienceData = [
     dates: "Jan 2022 - Apr 2025",
     location: "Queens, NY",
     achievements: [
-      "Automated client filing workflows, reducing turnaround time by 36%[cite: 20].",
-      "Analyzed large datasets in Drake Software and Excel to ensure compliance and accuracy[cite: 21].",
-      "Provided clients with data-driven financial advice based on tax analytics[cite: 22].",
-      "Trained new staff on digital systems and implemented improved documentation processes[cite: 23]."
+      "As a Tax Preparer, I significantly improved operational efficiency by introducing over five new procedures, which boosted workflow by 36%, and by reorganizing filing systems, increasing overall efficiency by 25%. My core responsibilities included preparing and filing accurate individual, corporate, and partnership tax returns using Drake software, alongside conducting in-depth document reviews to ensure compliance with all tax regulations. I provided exceptional client service by advising on tax-saving strategies and deductions, maintaining strict confidentiality, assisting with internal audits, and training new staff on filing procedures and software systems to ensure team readiness during peak seasons."
     ]
   },
   {
@@ -19,9 +16,7 @@ const experienceData = [
     dates: "Aug 2021 - Dec 2022",
     location: "Pedricktown, NJ",
     achievements: [
-      "Managed SQL and NOVA databases for logistics reporting and issue tracking[cite: 26].",
-      "Built a dashboard to monitor Fix-It tickets, improving response time by 25%[cite: 27].",
-      "Collaborated with engineers to troubleshoot backend system errors and process automation[cite: 28]."
+      "As a Logistics Coordinator, my responsibilities spanned systems management and operational efficiency. I managed SQL and NOVA databases for Remedy ARS backend support and dramatically improved issue resolution by creating a dashboard to track Fix It tickets. Operationally, I maximized warehouse staffing efficiency by scheduling inbound shipments, used WMTS to manage inter-facility shipments, and resolved complex inbound merchandise issues through root cause analysis. Finally, I ensured operational continuity by training team members across multiple fulfillment centers on CAPTIVA and SCMT systems, all while building strong communication channels with carriers, vendors, and clients."
     ]
   },
 ];

@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="container nav-content">
         
         <div className="nav-logo">
-          <a href="#hero">Melissa Abreu</a>
+          <a href="#hero">MA</a>
         </div>
     
         <nav className="nav-links-container">
