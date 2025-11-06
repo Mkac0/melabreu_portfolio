@@ -27,23 +27,21 @@ const experienceData = [
 ];
 
 const JobCard = ({ company, role, dates, location, achievements }) => (
-  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500 hover:shadow-xl transition duration-300">
-    <div className="flex justify-between items-start mb-3">
+  <div className="job-card">
+    <div className="job-header">
       <div>
-        <h3 className="text-2xl font-bold text-gray-900">{role}</h3>
-        <p className="text-lg font-medium text-indigo-600">{company}</p>
+        <h3 className="job-role">{role}</h3>
+        <p className="job-company">{company}</p>
       </div>
-      <div className="text-right">
-        <p className="text-md font-semibold text-gray-700">{dates}</p>
-        <p className="text-sm text-gray-500">{location}</p>
+      <div className="job-dates-location">
+        <p className="job-dates">{dates}</p>
+        <p className="job-location">{location}</p>
       </div>
     </div>
     
-    <ul className="space-y-2 pt-2 list-disc list-inside text-gray-700">
+    <ul className="job-achievements">
       {achievements.map((item, index) => (
-        <li key={index} className="pl-1">
-          {/* Note: The resume citations are included here but should be removed 
-             for the final deployed portfolio text. */}
+        <li key={index}>
           {item} 
         </li>
       ))}
@@ -51,16 +49,15 @@ const JobCard = ({ company, role, dates, location, achievements }) => (
   </div>
 );
 
-
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-extrabold text-gray-900 text-center mb-16">
-          <span className="border-b-4 border-indigo-500 pb-1">Professional Experience</span>
+    <section id="experience" className="experience-section bg-light-gray">
+      <div className="container">
+        <h2 className="section-title">
+          Professional Experience
         </h2>
         
-        <div className="space-y-10">
+        <div className="job-list">
           {experienceData.map((job, index) => (
             <JobCard key={index} {...job} />
           ))}

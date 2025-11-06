@@ -15,7 +15,10 @@ const Hero = () => {
           </p>
 
           <p className="hero-summary">
-            Motivated software engineer with hands-on experience in **JavaScript, React, Node.js, and PostgreSQL**. A graduate of General Assembly's Software Engineering Immersive, I combine technical expertise with a strong foundation in economics and operations to design efficient systems, solve complex problems, and collaborate in agile development environments.
+            My brain is wired for systems thinking.
+            <hr />
+            As a dyslexic coder, reading and writing can take more effort — but that challenge gave me a superpower. When I recently started coding, I struggled with syntax and documentation. But over time, I noticed something: while others focused on every line, I was drawn to the bigger picture — how systems fit together, where logic breaks down, and how to simplify complexity.
+            Dyslexia trained me to see patterns, think spatially, and solve problems creatively. And those skills? I believe they’re gold in software development. Many dyslexic tech leaders — like Richard Branson and David Baszucki (creator of Roblox) — have said the same: dyslexia helped them think differently, focusing less on memorization and more on innovation.
           </p>
 
           <div className="hero-actions">

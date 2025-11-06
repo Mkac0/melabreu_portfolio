@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const educationData = [
   {
@@ -24,7 +25,7 @@ const educationData = [
 const certificationsData = [
   {
     name: "Google Foundation of User Experience (UX) Design",
-    date: "Jun 2024",
+    date: "Jan 2024",
   },
   {
     name: "Accredited Tax Preparer (ATP) - La Guardia CC",
@@ -35,22 +36,22 @@ const certificationsData = [
 const EducationAndContact = () => {
   return (
     <>
-      <section id="education" className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-extrabold text-gray-900 text-center mb-16">
-            <span className="border-b-4 border-indigo-500 pb-1">Education & Certifications</span>
+      <section id="education" className="education-section bg-light-gray">
+        <div className="container">
+          <h2 className="section-title">
+            Education & Certifications
           </h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
+          <div className="education-grid">
             {educationData.map((edu, index) => (
               <div 
                 key={index} 
-                className="bg-gray-50 p-6 rounded-xl shadow-md transition duration-300 hover:shadow-lg"
+                className="education-card"
               >
-                <h3 className="text-xl font-bold text-gray-900">{edu.degree}</h3>
-                <p className="text-indigo-600 font-semibold">{edu.institution}</p>
-                <p className="text-sm text-gray-500 mb-4">{edu.date}</p>
-                <ul className="space-y-1 text-gray-700 list-disc list-inside">
+                <h3 className="education-degree">{edu.degree}</h3>
+                <p className="education-institution">{edu.institution}</p>
+                <p className="education-date">{edu.date}</p>
+                <ul className="education-details">
                   {edu.details.map((detail, i) => (
                     <li key={i}>{detail}</li>
                   ))}
@@ -59,13 +60,13 @@ const EducationAndContact = () => {
             ))}
           </div>
 
-          <div className="max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Certifications</h3>
-            <div className="flex flex-wrap justify-center gap-4">
+          <div className="certifications-container">
+            <h3 className="certifications-title">Certifications</h3>
+            <div className="certifications-list">
               {certificationsData.map((cert, index) => (
                 <div 
                   key={index} 
-                  className="px-6 py-2 border-2 border-indigo-300 text-indigo-800 font-medium rounded-full bg-indigo-50 shadow-sm"
+                  className="cert-badge"
                 >
                   {cert.name} ({cert.date})
                 </div>
@@ -75,40 +76,44 @@ const EducationAndContact = () => {
         </div>
       </section>
 
-      <footer className="bg-gray-800 py-10 footer-section">
-        <div className="max-w-6xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h3 className="text-3xl font-bold text-white mb-4">Let's Connect</h3>
-          <div className="flex justify-center space-x-6 text-white text-lg mb-8">
-            <a href="mailto:melissa.abreu84@gmail.com" className="hover:text-indigo-400 transition">
-              <span className="font-semibold">Email:</span> melissa.abreu84@gmail.com
+      <footer className="footer-section">
+        <div className="container footer-content">
+          <h3 className="footer-title">Let's Connect</h3>
+          
+          <div className="footer-links">
+            <a href="mailto:melissa.abreu84@gmail.com" className="footer-link">
+              Email: melissa.abreu84@gmail.com
             </a>
-            <span>|</span>
+            
             <a 
               href="https://www.linkedin.com/in/melissaabreu-profile" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="hover:text-indigo-400 transition"
+              className="footer-icon-link"
+              aria-label="LinkedIn Profile"
             >
-              LinkedIn
+              <FaLinkedinIn size={24} />
             </a>
-            <span>|</span>
+            
             <a 
               href="https://github.com/Mkac0" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="hover:text-indigo-400 transition"
+              className="footer-icon-link"
+              aria-label="GitHub Profile"
             >
-              GitHub
+              <FaGithub size={24} />
             </a>
           </div>
           
-          <p className="text-gray-400 text-sm mt-8">
-            &copy; {new Date().getFullYear()} Melissa Abreu. All Rights Reserved.
-          </p>
-          
-          <p className="text-gray-400 text-sm">
-            Built with React.
-          </p>
+          <div className="footer-info">
+            <p className="copyright">
+              &copy; {new Date().getFullYear()} Melissa Abreu. All Rights Reserved.
+            </p>
+            <p className="build-info">
+              Built with React. Located in Charlotte, NC.
+            </p>
+          </div>
         </div>
       </footer>
     </>
