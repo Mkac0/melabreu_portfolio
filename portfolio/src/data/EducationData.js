@@ -3,7 +3,7 @@ export const education = [
     degree: "Advance Software Engineering Immersive Program",
     institution: "General Assembly",
     date: "Oct 2025",
-    details: [], 
+    details: ["Built robust back-end applications using Node.js/Express, Python/Django, SQL/NoSQL databases, and trained in MVC, REST APIs, and Git/GitHub workflow."], 
   },
   {
     degree: "Bachelor of Arts in Economics",
