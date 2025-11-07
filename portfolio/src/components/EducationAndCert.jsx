@@ -30,9 +30,15 @@ const EducationAndCert = () => {
           <h4 className="certifications-title">Professional Certifications</h4>
           <div className="certifications-list">
             {certifications.map((cert, index) => (
-              <span key={index} className="cert-badge">
+              <a 
+                key={index} 
+                href={cert.link}
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="cert-badge"
+              >
                 {cert.name} ({cert.date})
-              </span>
+              </a>
             ))}
           </div>
         </div>

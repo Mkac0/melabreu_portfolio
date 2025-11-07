@@ -15,7 +15,7 @@ const Contact = () => {
         <h2 className="section-title">Get In Touch!</h2>
         <form 
           className="contact-form" 
-          action="YOUR_FORMSPREE_OR_NETLIFY_ENDPOINT" 
+          action="https://formspree.io/f/xyzlgybj" 
           method="POST"
         >
           <input 
@@ -27,7 +27,7 @@ const Contact = () => {
           />
           <input 
             type="email" 
-            name="email" 
+            name="_replyto" 
             placeholder="Your Email" 
             required 
             className="form-input" 

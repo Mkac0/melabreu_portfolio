@@ -25,6 +25,13 @@ export const education = [
 ];
 
 export const certifications = [
-  { name: "Google Foundation of User Experience (UX) Design", date: "Jun 2024" },
-  { name: "Accredited Tax Preparer (ATP)", date: "May 2019" },
+  { 
+    name: "Google Foundation of User Experience (UX) Design", 
+    date: "Jun 2024" ,
+    link: "https://www.coursera.org/account/accomplishments/verify/KQEDVTZ8HA4P"
+  },
+  { 
+    name: "Accredited Tax Preparer (ATP)", 
+    date: "May 2019" 
+  },
 ];

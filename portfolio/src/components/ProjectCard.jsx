@@ -1,4 +1,18 @@
 import React from 'react';
+import * as FaIcons from 'react-icons/fa';
+import * as DiIcons from 'react-icons/di';
+import * as SiIcons from 'react-icons/si';
+import * as MdIcons from 'react-icons/md';
+
+const getIconComponent = (library, iconName) => {
+  switch (library) {
+    case 'Fa': return FaIcons[iconName];
+    case 'Di': return DiIcons[iconName];
+    case 'Si': return SiIcons[iconName];
+    case 'Md': return MdIcons[iconName];
+    default: return null;
+  }
+};
 
 const ProjectCard = ({ project }) => {
   return (
@@ -8,11 +22,19 @@ const ProjectCard = ({ project }) => {
           <h3 className="project-title">{project.title}</h3>
           
           <div className="project-tech-stack">
-            {project.techStack.map((tech, index) => (
-              <span key={index} className="tech-badge">
-                {tech}
-              </span>
-            ))}
+            {project.techStack.map((tech, index) => {
+              const IconComponent = getIconComponent(tech.library, tech.icon);
+              return (
+                <div key={index} className="tech-badge">
+                  {IconComponent ? (
+                    <IconComponent size={20} className="tech-icon" /> 
+                  ) : (
+                    <span>{tech.name}</span>
+                  )}
+                  <span className="tech-name-label">{tech.name}</span>
+                </div>
+              );
+            })}
           </div>
 
           <p className="project-description">
