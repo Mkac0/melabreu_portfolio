@@ -138,85 +138,74 @@ section {
   background-color: var(--color-background);
 }
 
-/* Default Mobile (Stacked and Centered) */
 .hero-container-grid {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; /* Center horizontally */
-    gap: 40px;
-    text-align: center; /* Center all text content */
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 40px;
+  text-align: center;
 }
 
-/* On mobile, the image should be ordered first */
 .hero-image-column {
-    order: 1; 
+  order: 1; 
 }
-/* On mobile, the content should be ordered second */
+
 .hero-content {
-    order: 2; 
-    width: 100%; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center nested items like buttons/links */
-    gap: 15px;
+  order: 2; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 .hero-intro, .hero-about-me-container, .hero-actions, .hero-social-links {
-    text-align: center;
+  text-align: center;
 }
 
-/* --- Desktop Split Layout (900px and wider) --- */
 @media (min-width: 900px) {
-    .hero-container-grid {
-        /* Switch to Grid for two-column desktop layout */
-        display: grid; 
-        grid-template-columns: 2.5fr 1fr; /* 2.5 parts for text, 1 part for image */
-        gap: 60px;
-        align-items: flex-start; /* Align content blocks to the top */
-        text-align: left; /* Align text left */
-        flex-direction: initial; /* Reset flexbox property */
-    }
+  .hero-container-grid {
+    display: grid; 
+    grid-template-columns: 2.5fr 1fr;
+    gap: 60px;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: initial;
+  }
     
-    .hero-content {
-        /* Text/Content in the first column */
-        grid-column: 1 / 2; 
-        order: initial;
-        display: flex; /* Keep flex to manage inner layout */
-        flex-direction: column;
-        align-items: flex-start; /* CRITICAL: Ensure all internal content aligns to the left */
-        width: 100%;
-        gap: 15px; 
-    }
+  .hero-content {
+    grid-column: 1 / 2; 
+    order: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 15px; 
+  }
     
-    .hero-image-column {
-        /* Image in the second column */
-        grid-column: 2 / 3; 
-        order: initial;
-        display: flex;
-        justify-content: flex-end; /* Push image to the far right */
-        align-self: flex-start; /* CRITICAL: Align image to the top of the grid cell */
-        padding-top: 0; /* REMOVED: Remove padding to align with the very top of the grid (Melissa Abreu text) */
-    }
+  .hero-image-column {
+    grid-column: 2 / 3; 
+    order: initial;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    padding-top: 0; 
+  }
 
-    /* Ensure all inner text elements align left on desktop */
-    .hero-intro, .hero-about-me-container {
-        text-align: left;
-    }
+  .hero-intro, .hero-about-me-container {
+    text-align: left;
+  }
 
-    .hero-actions, .hero-social-links {
-        justify-content: flex-start;
-    }
+  .hero-actions, .hero-social-links {
+    justify-content: flex-start;
+  }
     
-    /* Small adjustment to pull the image up and left to sit neatly next to the text column */
-    .profile-picture {
-      max-width: 250px;
-      /* Optional: Adjust left margin to slightly pull the image left, 
-         to compensate for the grid spacing and align better with the title. */
-      margin-left: -50px; 
-    }
+  .profile-picture {
+    max-width: 250px;
+    margin-left: -50px; 
+  }
 }
 
-/* Ensure the hero-role color is visible */
 .hero-role {
   font-size: 1.7rem;
   font-weight: 600;

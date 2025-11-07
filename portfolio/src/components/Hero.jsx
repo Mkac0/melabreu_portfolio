@@ -38,6 +38,14 @@ const Hero = () => {
               View Projects
             </a>
             <a 
+              href="/docs/Melissa Abreu Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-button action-secondary" 
+            >
+              View Resume (PDF)
+            </a>
+            <a 
               href="mailto:melissa.abreu84@gmail.com" 
               className="cta-button action-secondary" 
             >
