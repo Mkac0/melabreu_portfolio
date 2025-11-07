@@ -26,6 +26,7 @@ const certificationsData = [
   {
     name: "Google Foundation of User Experience (UX) Design",
     date: "Jan 2024",
+    href: "https://www.coursera.org/account/accomplishments/verify/KQEDVTZ8HA4P",
   },
   {
     name: "Accredited Tax Preparer (ATP) - La Guardia CC",

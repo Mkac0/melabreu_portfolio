@@ -6,6 +6,7 @@ const navLinks = [
   { name: 'Projects', href: '#projects' },
   { name: 'Experience', href: '#experience' },
   { name: 'Education', href: '#education' },
+  { name: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -28,12 +29,6 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a 
-              href="mailto:melissa.abreu84@gmail.com" 
-              className="cta-button"
-            >
-              Contact
-            </a>
           </div>
         </nav>
       </div>

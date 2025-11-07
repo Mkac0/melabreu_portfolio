@@ -1,56 +1,62 @@
 import React from 'react';
 
-const ProjectCard = ({ 
-  title, 
-  description, 
-  techStack, 
-  liveLink, 
-  githubLink,
-  imageUrl
-}) => {
+const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
-      
-      <div className="project-image-container">
-        <img src={imageUrl} alt={`Screenshot of ${title} application`} className="project-image" />
-      </div>
-
       <div className="project-details">
-        <h3 className="project-title">{title}</h3>
-        
-        <div className="project-tech-stack">
-          {techStack.map((tech) => (
-            <span key={tech} className="tech-badge">
-              {tech}
-            </span>
-          ))}
+        <div>
+          <h3 className="project-title">{project.title}</h3>
+          
+          <div className="project-tech-stack">
+            {project.techStack.map((tech, index) => (
+              <span key={index} className="tech-badge">
+                {tech}
+              </span>
+            ))}
+          </div>
+
+          <p className="project-description">
+            {project.description}
+          </p>
         </div>
 
-        <p className="project-description">{description}</p>
-
         <div className="project-actions">
-          {liveLink && (
+          {project.liveDemoLink && project.liveDemoLink !== 'YOUR_LIVE_DEMO_LINK' && (
             <a 
-              href={liveLink} 
+              href={project.liveDemoLink} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="cta-button"
             >
               View Live Demo
             </a>
           )}
-          {githubLink && (
+          
+          {project.githubLink && project.githubLink !== 'YOUR_GITHUB_LINK' && (
             <a 
-              href={githubLink} 
+              href={project.githubLink} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="cta-button action-secondary"
             >
               View Code (GitHub)
             </a>
           )}
         </div>
       </div>
+      
+     <div className="project-image-container">
+        {project.image ? (
+          <img 
+            src={project.image} 
+            alt={`Screenshot of ${project.title} application`} 
+            className="project-image" 
+          />
+        ) : (
+          <div className="project-image-placeholder">
+             Screenshot or Image of {project.title}
+          </div>
+        )}
+      </div>
+
     </div>
   );
 };
