@@ -1,5 +1,5 @@
 # 🚀 Melissa Abreu's Developer Portfolio
-![Melissa Abreu](https://i.imgur.com/UmckA8p.png)
+![Melissa Abreu](https://i.imgur.com/SKmHRvp.png)
 
 This is the source code for my personal developer portfolio, which showcases my skills, experience, and projects as a full-stack engineer.
 
