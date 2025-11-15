@@ -38,7 +38,7 @@ const Hero = () => {
               View Projects
             </a>
             <a 
-              href="public/docs/Melissa Abreu Resume.pdf"
+              href="/docs/Melissa Abreu Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-button action-secondary" 
