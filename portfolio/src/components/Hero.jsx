@@ -23,7 +23,7 @@ const Hero = () => {
             <h3 className="hero-about-title">About Me</h3>
             <h4 className="hero-about-subtitle">My brain is wired for systems thinking.</h4>
             <p className='hero-about-text'>
-                Hey there! I’m a full-stack developer with a background in Economics and a few years of hands-on experience in tax prep, operations, and data systems. I started out in the business world—preparing complex tax returns, analyzing data, and improving workflows—and along the way, I realized how much I enjoyed creating tools that make systems more efficient.
+                Hey there! I’m a full-stack developer with a few years of hands-on experience in tax prep, operations, and data systems. I started out in the business world—preparing complex tax returns, analyzing data, and improving workflows—and along the way, I realized how much I enjoyed creating tools that make systems more efficient.
             </p>
             <p className="hero-about-text">
                 That curiosity led me to coding. I dove into JavaScript, Python, and web development, and I loved how coding let me build solutions from the ground up. Now, I’m focused on honing my skills in full-stack development, working with technologies like React, Node.js, and databases to create seamless user experiences.
