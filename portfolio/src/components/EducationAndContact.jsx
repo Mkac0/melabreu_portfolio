@@ -10,9 +10,9 @@ const educationData = [
   },
   {
     institution: "Queens College, City University of New York",
-    degree: "Bachelor of Science in Computer Science - Minor in Economics",
-    date: "May 2020",
-    details: ["Related Coursework: Intro to Programming, Data Structures, Computer Architecture, Price Theory, Econometrics, Business & Economics, Statistics.", "Member, Alliance of Latin American Students (ALAS)."],
+    degree: "Bachelor of Arts in Economics - Minor in Computer Science",
+    date: "Jun 2020",
+    details: ["Related Coursework: Intro to Programming, Data Structures, Price Theory, Econometrics, Business & Economics, Statistics.", "Member, Alliance of Latin American Students (ALAS)."],
   },
   {
     institution: "Borough of Manhattan Community College",

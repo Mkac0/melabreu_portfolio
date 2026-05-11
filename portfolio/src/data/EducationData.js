@@ -13,12 +13,12 @@ export const education = [
     logo: GALogo,
   },
   {
-    degree: "Bachelor of Science in Computer Science - Minor in Economics",
+    degree: "Bachelor of Arts in Economics - Minor in Computer Science",
     institution: "Queens College, City University of New York",
-    date: "May 2020",
+    date: "Jun 2020",
     logo: QCLogo,
     details: [
-      "Related Coursework: Intro to Programming, Data Structures, Computer Architecture, Price Theory, Econometrics, Business & Economics, Statistics.",
+      "Related Coursework: Intro to Programming, Data Structures, Price Theory, Econometrics, Business & Economics, Statistics.",
       "Member, Alliance of Latin American Students (ALAS)",
     ],
   },
