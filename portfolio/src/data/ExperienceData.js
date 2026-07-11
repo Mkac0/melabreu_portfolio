@@ -1,5 +1,18 @@
 export const experience = [
   {
+    role: "Software Engineer Apprentice",
+    company: "Revature",
+    location: "Remote",
+    dates: "June 2026 - Present",
+    achievements: [
+      "Wrote and optimized SQL queries for data extraction, transformation, and reporting from large datasets.",
+      "Assisted in designing and implementing ETL pipelines to support data-driven business decisions.",
+      "Collaborated with cross-functional teams to troubleshoot software issues and deliver scalable solutions.",
+      "Participated in code reviews, testing, debugging, and documentation following Agile development practices.",
+      "Improved data processing performance through query optimization and efficient data management techniques.",
+    ],
+  },
+  {
     role: "Tax Preparer",
     company: "Felipe Tax Corporation",
     location: "Queens, NY",

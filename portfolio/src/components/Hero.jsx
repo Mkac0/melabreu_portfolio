@@ -22,13 +22,13 @@ const Hero = () => {
           <div className="hero-about-me-container">
             <h3 className="hero-about-title">About Me</h3>
             <h4 className="hero-about-subtitle">My brain is wired for systems thinking.</h4>
-            {/* <p className='hero-about-text'>
-                Hey there! I’m a full-stack developer with a few years of hands-on experience in tax prep, operations, and data systems. I started out in the business world—preparing complex tax returns, analyzing data, and improving workflows—and along the way, I realized how much I enjoyed creating tools that make systems more efficient.
-            </p>
-            <p className="hero-about-text">
-                That curiosity led me to coding. I dove into JavaScript, Python, and web development, and I loved how coding let me build solutions from the ground up. Now, I’m focused on honing my skills in full-stack development, working with technologies like React, Node.js, and databases to create seamless user experiences.
-            </p>
-            <h4 className="hero-about-subtitle">💡 Fun Fact</h4> */}
+              <p className='hero-about-text'>
+                  Hey there! I’m a full-stack developer with a few years of hands-on experience in tax prep, operations, and data systems. I started out in the business world—preparing complex tax returns, analyzing data, and improving workflows—and along the way, I realized how much I enjoyed creating tools that make systems more efficient.
+              </p>
+              <p className="hero-about-text">
+                  That curiosity led me to coding. I dove into JavaScript, Python, and web development, and I loved how coding let me build solutions from the ground up. Now, I’m focused on honing my skills in full-stack development, working with technologies like React, Node.js, and databases to create seamless user experiences.
+              </p>
+            <h4 className="hero-about-subtitle">💡 Fun Fact</h4>
             <p className="hero-about-text">
                 As a dyslexic coder, reading and writing can take more effort — but that challenge gave me a superpower. When I recently started coding, I struggled with syntax and documentation. But over time, I noticed something: while others focused on every line, I was drawn to the bigger picture — how systems fit together, where logic breaks down, and how to simplify complexity.
             </p>
