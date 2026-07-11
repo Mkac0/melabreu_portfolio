@@ -15,7 +15,7 @@ const Hero = () => {
                 Melissa Abreu
             </h1>
             <p className="hero-role">
-                Junior Software Engineer | Full-Stack Developer
+                Software Engineer | Full-Stack Developer
             </p>
           </div>
 
