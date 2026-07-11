@@ -2,6 +2,15 @@ import React from 'react';
 
 const experienceData = [
   {
+    company: "Revature",
+    role: "Software Engineer Apprentice",
+    dates: "June 2026 - Present",
+    location: "Remote",
+    achievements: [
+      "As a Software Engineer Apprentice, I wrote and optimized SQL queries for data extraction, transformation, and reporting from large datasets. I also assisted in designing and implementing ETL pipelines to support data-driven business decisions, collaborated with cross-functional teams to troubleshoot software issues and deliver scalable solutions, participated in code reviews, testing, debugging, and documentation following Agile development practices, and improved data processing performance through query optimization and efficient data management techniques."
+    ]
+  },
+  {
     company: "Felipe Tax Corporation",
     role: "Tax Preparer",
     dates: "Jan 2022 - Apr 2025",
