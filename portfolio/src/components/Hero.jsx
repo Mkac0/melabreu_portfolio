@@ -28,13 +28,13 @@ const Hero = () => {
               <p className="hero-about-text">
                   That curiosity led me to coding. I dove into JavaScript, Python, and web development, and I loved how coding let me build solutions from the ground up. Now, I’m focused on honing my skills in full-stack development, working with technologies like React, Node.js, and databases to create seamless user experiences.
               </p>
-            <h4 className="hero-about-subtitle">💡 Fun Fact</h4>
-            <p className="hero-about-text">
-                As a dyslexic coder, reading and writing can take more effort — but that challenge gave me a superpower. When I recently started coding, I struggled with syntax and documentation. But over time, I noticed something: while others focused on every line, I was drawn to the bigger picture — how systems fit together, where logic breaks down, and how to simplify complexity.
-            </p>
-            <p className="hero-about-text">
-                Dyslexia trained me to see patterns, think spatially, and solve problems creatively. And those skills? I believe they’re gold in software development. Many dyslexic tech leaders — like Richard Branson and David Baszucki (creator of Roblox) — have said the same: dyslexia helped them think differently, focusing less on memorization and more on innovation.
-            </p>
+            {/* <h4 className="hero-about-subtitle">💡 Fun Fact</h4> */}
+            {/* <p className="hero-about-text"> */}
+                {/* As a dyslexic coder, reading and writing can take more effort — but that challenge gave me a superpower. When I recently started coding, I struggled with syntax and documentation. But over time, I noticed something: while others focused on every line, I was drawn to the bigger picture — how systems fit together, where logic breaks down, and how to simplify complexity. */}
+            {/* </p> */}
+            {/* <p className="hero-about-text"> */}
+                {/* Dyslexia trained me to see patterns, think spatially, and solve problems creatively. And those skills? I believe they’re gold in software development. Many dyslexic tech leaders — like Richard Branson and David Baszucki (creator of Roblox) — have said the same: dyslexia helped them think differently, focusing less on memorization and more on innovation. */}
+            {/* </p> */}
           </div>
 
           <div className="hero-actions">
